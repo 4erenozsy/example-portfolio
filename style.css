@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    overflow: auto;
+}
+body{
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+nav{
+    width: 100%;
+    background-color: bisque;
+    opacity: .9;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding: 15px;
+    font-size: 1.2rem;
+}
+ul a{
+    transition: all 2s ease;
+}
+ul a:hover{
+    opacity: .7;
+    background-color: burlywood;
+}
+.begin{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    padding: 5px 0;
+}
+h3{
+    padding: 10px 0;
+}
+.begin a{
+    font-size: 1.8rem;
+    margin: 5px 7px;
+    color: white;
+    transition: color 2s ease;
+}
+.begin a:hover{
+    color: aqua;
+}
+span{
+    animation-name: animasyon;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes animasyon{
+    0%{
+     color: white;
+    }
+    50%{
+        color: blueviolet;
+    }
+    100%{
+        color: white;
+    }
+}
+.container{
+    width: 80%;
+    background-color: white;
+    margin: 50px auto;
+}
+.content1 img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.content1{
+    padding: 20px 50px;
+}
+.content1 h2 {
+    margin: 20px;
+}
+.content1,.content2 p {
+    font-size: 1.5rem;
+}
+.content2{
+    padding: 60px;
+    margin: 50px 0;
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+.bar{
+    width: 80%;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+.bar-in{
+    width: 75%;
+    height: 100%;
+    background-color: darkblue;
+}
+.right-side{
+    width: 50%;
+}
+.content2 p{
+    margin: 20px 0;
+}
+.resimler{
+    display: flex;
+    gap: 20px;
+    padding: 0 50px;
+}
+.resimler img{
+    width: 25%;
+}
+.content3 h2{
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.content4{
+    width: 93%;
+    margin: 50px auto;
+}
+.first h2{
+    margin-bottom: 30px;
+}
+.first{
+    margin-bottom: 50px;
+}
+.content5{
+    width: 95%;
+    margin: auto;
+    
+}
+.content5 h2{
+    margin-bottom: 30px;
+}
+.concept-main{
+    display: flex;
+    width: 100%;
+}
+.concept1{
+    width: 25%;
+}
+.concept2{
+    width: 25%;
+}
+.concept3{
+    width: 25%;
+}
+.concept4{
+    width: 25%;
+    display: flex;
+    align-items: flex-end;
+}
+label{
+    font-size: 1.2rem;
+}
+select{
+    width: 80%;
+    margin-top: 10px;
+    height: 27px;
+    border-radius: 10px;
+}
+button{
+    width: 80%;
+    background-color: blueviolet;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    animation-name: button1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes button1{
+    0%{
+        background-color: blueviolet;
+    }
+    50%{
+        opacity: .7;
+        background-color: purple;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+.content6{
+    display: flex;
+    width: 95%;
+    margin: 50px auto;
+    margin-top: 100px;
+    gap: 50px;
+}
+.right1{
+    width: 50%;
+}
+.left1{
+    width: 50%;
+}
+iframe{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+input{
+    display: block;
+    width: 90%;
+    height: 35px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border-style: solid;
+}
+textarea{
+    width: 90%;
+    margin-left: 30px;
+    border-style: solid;
+}
+.btn{
+    color: white;
+    background-color: blueviolet;
+    animation-name: button2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes button2{
+    0%{
+        background-color: blueviolet;
+    }
+    50%{
+        opacity: .7;
+        background-color: purple;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
